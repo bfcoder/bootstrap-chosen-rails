@@ -10,8 +10,9 @@ Gem::Specification.new do |s|
   s.description = "An alternate stylesheet for Chosen that integrates with Bootstrap and Rails asset pipeline."
   s.authors     = ["James Carbine"]
   s.email       = 'jamescarbine@gmail.com'
+
+  s.require_paths = ["lib"]
   s.files       = `git ls-files`.split("\n")
-  s.homepage    =
-    'https://github.com/bfcoder/bootstrap-chosen-rails'
-  s.license       = 'MIT'
+  s.homepage    = 'https://github.com/bfcoder/bootstrap-chosen-rails'
+  s.license     = 'MIT'
 end
