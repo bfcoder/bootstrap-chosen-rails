@@ -1,0 +1,16 @@
+*.gem
+.sass-cache
+Gemfile.lock
+*.gemfile.lock
+.rvmrc
+.rbenv-version
+.ruby-version
+.ruby-gemset
+
+# Ignore bundler config
+/.bundle
+/vendor/cache
+/vendor/bundle
+tmp/
+.DS_Store
+node_modules
